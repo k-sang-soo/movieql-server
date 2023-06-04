@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Movies from './routes/movies';
 import Movie from './routes/movie';

@@ -1,5 +1,5 @@
+import React from 'react';
 import { gql, useApolloClient, useQuery } from '@apollo/client';
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const ALL_MOVIES = gql`
